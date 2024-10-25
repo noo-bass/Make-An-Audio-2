@@ -26,3 +26,12 @@ resampy
 ssr_eval
 -e git+https://github.com/noo-bass/BigVGAN.git@main#egg=BigVGAN
 
+# torch
+# numpy
+# librosa==0.8.1
+# scipy
+# tensorboard
+# soundfile
+matplotlib
+pesq
+auraloss
