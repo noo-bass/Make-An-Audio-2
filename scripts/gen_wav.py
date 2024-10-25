@@ -122,7 +122,7 @@ def gen_wav(sampler,vocoder,prompt,struct_prompt,ddim_steps,scale,duration,n_sam
 if __name__ == '__main__':
     args = parse_args()
     sampler = initialize_model('configs/text2audio-ConcatDiT-ae1dnat_Skl20d2_struct2MLPanylen.yaml', '/cache/useful_ckpts/maa2.ckpt')
-    vocoder = VocoderBigVGAN('/cache/useful_ckpts/bigvgan',device=device)
+    vocoder = VocoderBigVGAN('/root/bigvgan',device=device)
     print("Generating audios, it may takes a long time depending on your gpu performance")
     wav_list = gen_wav(sampler,vocoder,prompt=args.prompt,struct_prompt=args.struct_prompt,ddim_steps=args.ddim_steps,scale=args.scale,duration=args.duration,n_samples=args.n_samples)
     os.makedirs(os.path.dirname(args.save_name),exist_ok=True)
