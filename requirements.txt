@@ -24,4 +24,6 @@ torchmetrics==0.11.1
 # below are used for evaluation
 resampy
 ssr_eval
--e git+https://github.com/awei-6/BigVGAN.git@main#egg=BigVGAN # Modify the file import structure and add the VocoderBigVGAN class for ease of invocation
+-e git+https://github.com/noo-bass/BigVGAN.git@main#egg=BigVGAN
+
+#-e git+https://github.com/awei-6/BigVGAN.git@main#egg=BigVGAN # Modify the file import structure and add the VocoderBigVGAN class for ease of invocation
