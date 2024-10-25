@@ -31,7 +31,7 @@ def parse_args():
     parser.add_argument('--csv_path',type=str,default='')
     parser.add_argument('--wavsdir',type=str)
     parser.add_argument('--mean',type=bool,default=True)
-    parser.add_argument('--ckpt_path', default="useful_ckpts/CLAP")
+    parser.add_argument('--ckpt_path', default="cache/useful_ckpts/CLAP")
     args = parser.parse_args()
     return args
 
