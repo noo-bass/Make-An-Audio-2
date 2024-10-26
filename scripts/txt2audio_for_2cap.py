@@ -20,7 +20,7 @@ from ldm.models.diffusion.plms import PLMSSampler
 import pandas as pd
 from tqdm import tqdm
 import preprocess.n2s_by_openai as n2s
-from .bigvgan.models import VocoderBigVGAN
+from ..bigvgan.models import VocoderBigVGAN
 import soundfile
 
 def load_model_from_config(config, ckpt = None, verbose=True):

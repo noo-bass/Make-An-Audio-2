@@ -8,7 +8,7 @@
 import torch
 import os
 import numpy as np
-from .bigvgan.models import VocoderBigVGAN
+from ..bigvgan.models import VocoderBigVGAN
 from ldm.models.diffusion.ddim import DDIMSampler
 from ldm.util import instantiate_from_config
 from omegaconf import OmegaConf
