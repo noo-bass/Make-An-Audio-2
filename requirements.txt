@@ -25,8 +25,9 @@ torchmetrics==0.11.1
 # below are used for evaluation
 resampy
 ssr_eval
--e git+https://github.com/noo-bass/BigVGAN.git@main#egg=BigVGAN
 
+# including bigvgan package locally
+#-e git+https://github.com/noo-bass/BigVGAN.git@main#egg=BigVGAN
 # torch
 # numpy
 # librosa==0.8.1
